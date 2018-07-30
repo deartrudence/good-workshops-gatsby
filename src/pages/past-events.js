@@ -6,7 +6,7 @@ import Social from '../components/Social'
 import { Parallax } from 'react-scroll-parallax' 
 
 
-class CaseStudies extends React.Component {
+class PastEvents extends React.Component {
 	render() {
 		const siteTitle = "get(this, 'props.data.site.siteMetadata.title')"
 		const posts = get(this, 'props.data.allMarkdownRemark.edges')
@@ -35,10 +35,10 @@ class CaseStudies extends React.Component {
 					</Parallax>
 				</div>
 				<div className="wrapper-grey">
-					<a href="/"><h1 className="up-five-title">Up At Five</h1></a>
+					<a href="/"><h1 className="up-five-title">Good Workshops</h1></a>
 					{/* <p className="up-five-subtitle">Crafting the web before 10am</p> */}
-					<h2 className="primary-title case-studies">case studies</h2>
-					{posts.map(post => {
+					<h2 className="primary-title case-studies">past events</h2>
+					{posts.filter(post => Date.parse(post.node.frontmatter.date) < Date.now()).map(post => {
 						let hero = post.node.frontmatter.hero
 						if (post.node.path !== '/404/') {
 							const title = get(post, 'node.frontmatter.title') || post.node.path
@@ -50,6 +50,7 @@ class CaseStudies extends React.Component {
 												{post.node.frontmatter.title}
 										</h3>
 										<p>{post.node.frontmatter.client}</p>
+										<p>{post.node.frontmatter.date}</p>
 									</Link>
 									{/* <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} /> */}
 								</div>
@@ -63,14 +64,14 @@ class CaseStudies extends React.Component {
 	}
 }
 
-CaseStudies.propTypes = {
+PastEvents.propTypes = {
 	route: React.PropTypes.object,
 }
 
 
-export default CaseStudies
+export default PastEvents
 
-export const pageQuery = graphql`
+export const pastEventsQuery = graphql`
   query StudyQuery {
     site {
       siteMetadata {

@@ -35,14 +35,13 @@ class CaseStudyTemplate extends React.Component {
           </Parallax>
         </div>
         <div className="wrapper-grey">
-          <a href="/"><h1 className="up-five-title">Up At Five</h1></a>
+          <a href="/"><h1 className="up-five-title">Good Workshops</h1></a>
           <a href={post.frontmatter.site} target="_blank"><h2 className="primary-title case-study">{post.frontmatter.client}</h2></a>
           <h2 className="case-study-title">{post.frontmatter.title}</h2>
           {/* <p>
             {post.frontmatter.date}
           </p> */}
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
-          <Link className="button case-study-button" to="/case-studies">more case studies</Link>
           <Social />
         </div>
       </div>

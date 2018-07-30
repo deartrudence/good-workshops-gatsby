@@ -50,12 +50,10 @@ class Header extends React.Component {
 						<p className="close" onClick={this.closeMenu}>X</p>
 						<ul>
 							<li><Link onClick={this.closeMenu} to="/">home</Link></li>
-							<li><Link onClick={this.closeMenu} to="/about">about</Link></li>
-							<li><Link onClick={this.closeMenu} to="/case-studies">case studies</Link></li>
-							<li><a onClick={this.closeMenu} href="http://www.codeshopify.com/" target="_blank">educational resources</a></li>
-							<li><Link onClick={this.closeMenu} to="/about#contact-area">contact us</Link></li>
+							<li><a onClick={this.closeMenu} href="http://www.codeshopify.com/" target="_blank">code shopify tutorials</a></li>
+							<li><Link onClick={this.closeMenu} to="#contact-area">contact us</Link></li>
 						</ul>
-						<img className="menu-logo" src={logo} alt=""/>
+						<a href="http://www.upatfive.ca" target="_blank"><img className="menu-logo" src={logo} alt="" /></a>
 					</div>
 				</div>
 			</div>

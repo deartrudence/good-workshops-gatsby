@@ -7,19 +7,17 @@ class Footer extends React.Component {
 	render() {
 		return (
 			<footer>
-				<img src={Logo} alt=""/>
+				<a href="http://www.upatfive.ca" target="_blank"><img src={Logo} alt=""/></a>
 				<div className="info-wrapper">
 					<div className="info">
 						<ul>
 							<li><Link to="/">home</Link></li>
-							<li><Link to="/about">about</Link></li>
-							<li><Link to="/case-studies">case studies</Link></li>
-							<li><Link to="/educational-resources">educational resources</Link></li>
+							<li><a href="http://www.codeshopify.com" target="_blank">code shopify tutorials</a></li>
 						</ul>
 					</div>
 					<div className="info">
 						<ul>
-							<li><a href="mailto:hello@upatfive.ca?Subject=Hello">Hello@upatfive.ca</a></li>
+							<li><a href="mailto:hello@upatfive.ca?Subject=Hello" target="_blank">Hello@upatfive.ca</a></li>
 						</ul>
 					</div>
 					<div className="info">

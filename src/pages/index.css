@@ -183,10 +183,13 @@
 .methodology p {
 	font-size: 1.4rem;
 	line-height: 2.7rem;
-	margin: 0 0 100px 80px;
+	margin: 0 0 80px 80px;
 }
 .methodology .secondary-title {
 	margin-bottom: 42px;
+}
+video {
+	margin-bottom: 80px;
 }
 
 .contact-area {
@@ -293,10 +296,11 @@
 	}
 }
 
-.case-study-button {
-	margin: 0 auto 50px auto;
+.past-events-button {
+	margin: 80px auto 50px auto;
 	display: block;
 	width: 50%;
+	text-align: center;
 }
 .case-study-wrapper p{
 	margin-left: 80px;
@@ -370,6 +374,16 @@
 	margin-top: 40px;
 	margin-bottom: 80px;
   transform: translateX(10%);
+}
+
+.speaker{
+	margin-bottom: 50px;
+} 
+.speaker img{
+	max-width: 180px;
+}
+.speaker h3 {
+	font-size: 1.6rem;
 }
 
 @media(max-width: 500px){

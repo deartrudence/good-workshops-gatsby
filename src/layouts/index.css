@@ -79,16 +79,16 @@ ul {
 	text-align: center;
 	margin: 0;
 	transform: translateY(-50%);
-	font-size: 6rem;
+	font-size: 5.2rem;
 	line-height: 7.2rem;
 	font-weight: normal;
 }
 .up-five-subtitle {
 	font-size: 2rem;
 	line-height: 3.5rem;
-	width: 70%;
+	width: 80%;
 	text-align: center;
-	margin: 30px auto 245px auto;
+	margin: 30px auto 145px auto;
 	line-height: 40px;
 	color: #1E46F4;
 	font-family: 'Space Mono', monospace
@@ -165,7 +165,7 @@ ul {
 	}
 	.primary-title {
 		padding: 8px 80px 8px 55px;
-		transform: translate(-70px,-200%);
+		transform: translate(-60px,0%);
 		font-size: 1.4rem;
 		line-height: 1.9rem;
 		width: unset;
@@ -270,7 +270,7 @@ ul {
 		margin-top: 20px;
 	}
 	.case-study-card h3 {
-		font-size: 2rem;
+		font-size: 1.6rem;
 		line-height: 3rem;
 	}
 	.case-study-card img {
@@ -286,7 +286,7 @@ ul {
  transform: translateY(-100%) translateX(-80%);
 	}
 	.case-study-card:nth-child(even) h3{
-	transform: translateY(-100%) translateX(70%);
+	transform: translateY(-100%) translateX(80%);
 	text-align: left;
 	}
 }

@@ -18,9 +18,9 @@ class Header extends React.Component {
 						name='twitter'
 					/>
 				</a>
-				<a href="https://www.linkedin.com/company/up-at-five/" target="_blank">
+				<a href="https://www.meetup.com/Good-Workshops-Toronto/" target="_blank">
 					<FontAwesome
-						name='linkedin'
+						name='meetup'
 					/>
 				</a>
 			</div>

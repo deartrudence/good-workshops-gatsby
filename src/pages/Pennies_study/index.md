@@ -1,9 +1,9 @@
 ---
-title: Creating more than just a restaurant landing page with Shopify
-client: Pennies Bar
-date: "2018-07-01T22:12:03.284Z"
+title: Shopify App Development
+client: Berlin
+date: "2018-07-31T22:12:03.284Z"
 path: "/restaurant-landing-page/"
-hero: './pennies_header.png'
+hero: './title_card.png'
 site: 'https://pennies.bar/'
 ---
 
