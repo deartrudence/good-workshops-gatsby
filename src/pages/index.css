@@ -378,6 +378,12 @@ video {
 
 .speaker{
 	margin-bottom: 50px;
+}
+.speaker h3, a{
+	color: #1E46F4;
+}
+.speaker h3:hover, a:hover {
+	color: black;
 } 
 .speaker img{
 	max-width: 180px;
