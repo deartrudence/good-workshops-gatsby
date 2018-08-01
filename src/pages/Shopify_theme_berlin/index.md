@@ -1,7 +1,7 @@
 ---
 title: Shopify Theme Development
 client: Berlin
-date: "2018-07-31T22:12:03.284Z"
+date: "2018-02-19T22:12:03.284Z"
 path: "/shopify-theme-berlin/"
 hero: './title_card.png'
 site: 'https://pennies.bar/'
